@@ -17,7 +17,6 @@ sub qsort{
 
 sub partition{
     my ($a, $p, $r) = @_;
-    
     my $x = $a->[$r];
     my $i = $p - 1;
     
@@ -33,7 +32,6 @@ sub partition{
 }
 
 my @array = (9, 8, 4, 5, 6, 7, 3, 2, 1);
-
 
 quicksort @array;
 print "@array\n";
