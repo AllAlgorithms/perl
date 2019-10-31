@@ -95,7 +95,7 @@ if ($num_args == 3) {
 }
 
 if ($error eq "TRUE") {
-  print "Usage: perl caesar.pl (action) 'keyphrase' 'text'\r\n\r\n";
+  print "Usage: perl vigenere.pl (action) 'keyphrase' 'text'\r\n\r\n";
   print "action: string representing action to be taken, either \"encrypt\" or \"decrypt\"\r\n";
   print "keyphrase: string to be used as keyphrase, enclosed in single quotes\r\n"; 
   print "text: string to be encrypted/decrypted, enclosed in single quotes\r\n\r\n";
