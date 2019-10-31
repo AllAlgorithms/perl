@@ -40,7 +40,7 @@ if ($num_args == 1) {
 }
 
 if ($error eq "TRUE") {
-  print "Usage: perl atbash.pl (action) 'text'\r\n\r\n";
+  print "Usage: perl atbash.pl 'text'\r\n\r\n";
   print "text: string to be encrypted/decrypted, enclose in single quotes\r\n\r\n";
   exit 0;
 }
